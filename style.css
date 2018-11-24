@@ -1,12 +1,16 @@
+body{
+	background-color: #f6ac00;
+}
+.swiper-container{
+ height: 510px;
+}
 .width1188{
 	width: 1188px;
 	margin: 0 auto;
-    background-color: #f6ac00;
 }
 .top{
 	width: 100%;
     height:115px;
-    background-color: #f6ac00;
 }
 	.head{
 		height: 115px;
@@ -138,7 +142,7 @@
 
 .photo{
 	height: 495px;
-	background: url(images/cpbj_02.jpg) top left no-repeat;
+	background: url(images/cpbj_02.jpg) top center no-repeat;
 }
 	.title-text1{
 		text-align: center;
@@ -149,16 +153,15 @@
 	    color: #fefbfb;
 	}
 	.picture {
-	    width: 895px;
+	    width: 930px;
 	    height: 290px;
 	    position: relative;
-	    padding-top: 60px;
-	    padding-left: 310px;
-	    
+			margin: 30px auto;
 	}
 	.picture img{
 		width: 285px;
 		height: 260px;
+		margin: 10px;
 	}
 
 
@@ -205,13 +208,11 @@
 
 .news{
     width: 100%;
-    height: 270px;
+    height: 290px;
     background-color: #dabb91;
     padding-top: 20px;	
 }
 	.main-news{
-		height: 270px;
-		background: #fff;     
 	}
 	.newslist-l{
 		float: left;
@@ -221,7 +222,8 @@
 		font-size: 18px;
 		line-height: 30px;
 		border-bottom: 4px solid #EECFB3;
-		margin-left: 55px;
+		margin-left: 15px;
+		margin-bottom: 15px;
 		width: 100px;
 	}
 	.time{
@@ -231,6 +233,7 @@
 	.newslist-l ul li{
 		line-height: 35px;
 		border-bottom: 1px solid #eecfb3;
+		padding-left: 10px;
 	}
 	.newslist-l ul li a{
 		float: left;
@@ -246,8 +249,9 @@
 		font-size: 18px;
 		line-height: 30px;
 		border-bottom: 4px solid #EECFB3;
-		margin-left: 55px;
+		margin-left: 15px;
 		width: 100px;
+		margin-bottom: 15px;
 	}
 	.item{
 		padding-top: 5px;

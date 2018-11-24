@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.parent{
+			width: 960px;
+			margin: 0 auto;
+			background-color: green;
+		}
+		.children1,.children2{
+			float: left;
+		}
+		.children1{
+			width: 300px;
+			background-color: skyblue;
+		}
+		.children2{
+			width: 660px;
+			background-color: yellow;
+		}
+
+		.margin{
+			margin-left: 20px;
+			width: 640px;
+		}
+	</style>
+</head>
+<body>
+	浮动三要素 <br>
+	1 基础结构 <br>
+	<div class="parent">
+		<div class="children1">left</div>
+		<div class="children2">left</div>
+		<div style="clear: both;"></div>
+	</div>
+
+	2计算父级宽度 100%; width: 960px; <br>
+
+	3 子元素同时浮动 <br>
+
+	4 清除浮动 <br>
+
+	5 给子元素增加宽 (子元素的宽相加的总和等于父元素的宽) <br>
+
+
+	边距浮动 <br>
+
+	<div class="parent">
+		<div class="children1">left</div>
+		<div class="children2 margin">left</div>
+		<div style="clear: both;"></div>
+	</div>
+</body>
+</html>
